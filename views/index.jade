@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h1= "Logger-ssh2"
+	div#form-container
+		label(for="server") Server Name:
+			input(type="text", name="server", placeholder="server.stanford.edu")
+		label(for="date") Date:
+			input(type="text", name="date", placeholder="2013-11-11")
+		label(for="webapp") Webapp Name:
+			input(type="text", name="webapp", placeholder="jcode-beta")
+		label(for="catalina-log") Catalina Log:
+			input(type="checkbox", name="catalina-log")
+		button(id="submit") Submit
+	div#data-container

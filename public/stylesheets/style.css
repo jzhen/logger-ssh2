@@ -1,0 +1,50 @@
+h1 {
+	background-color: #0D6C8C;
+	color: #FFFFFF;
+	height: 90px;
+	margin: 0 auto;
+	padding: 22px 25px;
+}
+
+#form-container {
+	border: solid 1px #0D6C8C;
+	border-radius: 4px;
+	margin: 25px 50px;
+	padding: 15px;
+	text-align: center;
+}
+
+a {
+	color: #0D6C8C;
+}
+
+label, button {
+	font-size: 1.15em;
+}
+
+label {
+	display: inline-block;
+	margin: 0 1.75em 0 0;
+}
+
+input[type='text'] {
+	color: #666666;
+	font-size: 1.05em;
+	font-weight: normal;
+	margin: 0 0 0 .45em;
+	width: 240px;
+}
+
+input[type='checkbox'] {
+	margin: 0 0 0 .45em;
+}
+
+button {
+	margin: 0 0 0 2em;
+}
+
+#data-container {
+	height: 100%;
+	margin: 25px 50px 75px 50px;
+	overflow: auto;
+}
